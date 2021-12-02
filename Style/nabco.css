@@ -1,0 +1,369 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Cairo', sans-serif;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ##################### header ######################*/
+.background-header {
+    background-image: url(../Image/person.png), url(../Image/point.png), url(../Image/carcale-in-cercal.png), url(../Image/cercal.png), url(../Image/background-side.png);
+    background-size: 391px, 120px, 490px, 300px, 517px;
+    background-repeat: no-repeat;
+    background-color: rgb(255, 255, 255);
+    height: 640px;
+    width: auto;
+    background-position: 763px 100%, 744px 20%, 859px 256%, 1210px -10%, 834px 0%;
+}
+
+header {
+    background-color: transparent;
+    padding: 36px 55px;
+}
+.div-1 {
+    display: inline-block;
+    width: 21%;
+    vertical-align: middle;
+}
+
+.logo {
+    width: 217px;
+    margin: 0px auto 0px 0px;
+    display: block;
+}
+
+.div-2 {
+    display: inline-block;
+    width: 42%;
+}
+
+.div-2 ul {
+    list-style: none;
+    display: flex;
+}
+
+.list {
+    margin: 0px 25px;
+    color: #09114c;
+}
+
+.list-link:link {
+    color: #09114c;
+    text-decoration: none;
+    text-shadow: 0px 0px 2px #09114c4a;
+}
+
+.list-link:visited {
+    color: #09114c;
+    text-decoration: none;
+}
+
+.list-link h4:hover {
+    border-bottom: 3px solid #3ddea2;
+    width: 102%;
+    text-align: center;
+    padding-bottom: 6px;
+}
+
+
+
+.div-3 {
+    width: 36%;
+    display: inline-block;
+    margin: 0px 0px 0px auto;
+}
+
+
+
+.list-1:link {
+    color: #ffffff;
+    text-decoration: none;
+    
+
+}
+
+.list-1:visited {
+    color: #ffffff;
+
+}
+
+
+
+.call-icon {
+    width: 20px;
+    vertical-align: middle;
+    margin: 0px 10px;
+}
+
+.hr {
+    height: 21px;
+    width: 2px;
+    display: inline-block;
+    background-color: white;
+    border: 0px;
+    border-radius: 50px;
+    vertical-align: middle;
+    margin: 0px 7px;
+}
+
+.list-1-link {
+    display: inline-block;
+    vertical-align: middle;
+    font-family: 'Cairo', sans-serif;
+    font-weight: 400;
+}
+
+.fit-contact {
+    width: fit-content;
+    margin: 0px 17px 0px auto;
+}
+
+/* #################### /header #######################*/
+
+/* #################### contener #######################*/
+
+.contener {
+    height: 302px;
+    width: 554px;
+    background-color: transparent;
+    padding: 84px 99px;
+}
+
+.contener-h2 {
+    width: fit-content;
+    font-size: 37pt;
+    color: #09114c;
+    margin-bottom: 25px;
+}
+
+.contener-p {
+    width: 476px;
+    font-size: 17px;
+    margin-bottom: 15px;
+    color: #7f9ac1;
+    line-height: 21px;
+}
+
+.contener-a {
+    width: fit-content;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 32px;
+}
+.contener-link {
+    width: fit-content;
+    color: white;
+    background-color: #0e63dc;
+    padding: 13px 30px;
+    border-radius: 32px;
+    font-size: 15px;
+    box-shadow: 0px 5px 10px #0e63dc38;
+    text-shadow: 0px 0px 13px #ffffffbd;
+    margin-top: 30px;
+}
+
+.contener-link:link {
+    width: fit-content;
+    color: white;
+    background-color: #0e63dc;
+    padding: 13px 30px;
+    border-radius: 32px;
+    font-size: 15px;
+    box-shadow: 0px 5px 10px #0e63dc38;
+    text-shadow: 0px 0px 13px #ffffffbd;
+    margin-top: 30px;
+
+}
+
+.contener-link:visited {
+    width: fit-content;
+    color: white;
+    background-color: #0e63dc;
+    padding: 13px 30px;
+    border-radius: 32px;
+    font-size: 15px;
+    box-shadow: 0px 5px 10px #0e63dc38;
+    text-shadow: 0px 0px 13px #ffffffbd;
+    margin-top: 30px;
+
+}
+
+.contener-link:hover {
+    background-color: transparent;
+    color: #0e63dc;
+    box-shadow: 0px 0px 0px transparent;
+    font-weight: bold;
+}
+
+.contener-img {
+    width: 13px;
+    vertical-align: middle;
+    margin-left: 6px;
+}
+
+.contener-hr {
+    width: 20px;
+    height: 2px;
+    background-color: #3ddea2;
+    border: 0px;
+    position: absolute;
+    top: 51px;
+    left: 348px;
+}
+
+/* #################### contener #######################*/
+/*###################################################################################################*/
+
+.background-contener {
+    width: auto;
+    height: auto;
+    background-color: white;
+}
+
+.contener-1-div {
+    display: block;
+    width: fit-content;
+    margin: 0px auto;
+    padding: 80px 0px;
+    line-height: 40px;
+}
+
+.contener-1-h2 {
+    width: fit-content;
+    font-size: 40px;
+    color: #09114c;
+}
+
+.contener-1-h3 {
+    width: fit-content;
+    font-size: 18px;
+    font-weight: 400;
+    color: #62e4b4;
+    padding-left: 5px;
+    text-shadow: 0px 0px 5px #62e4b454;
+}
+
+.contener-1-div-1 {
+    width: auto;
+    background-color: #f6fafa;
+}
+
+.contener-1-div-1-div {
+    width: 49%;
+    height: auto;
+    display: inline-block;
+    padding: 32px 0px;
+}
+
+.contener-grid {
+    width: fit-content;
+    padding: 33px 50px;
+
+}
+
+.contener-grid img {
+    width: 160px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.contener-grid p {
+    width: 360px;
+    font-size: 13px;
+    margin-left: 36px;
+    display: inline-block;
+    color: #7f9ac1;
+}
+
+.blue {
+    width: 222px;
+    position: absolute;
+    left: -156px;
+    top: 699px;
+}
+
+/*##########################################################################################################*/
+
+.Products-contener {
+    width: auto;
+    height: 600px;
+    background-image: url(../Image/transpert-cercal.png), url(../Image/transpert-cercal.png), url(../Image/transpert-cercal.png), url(../Image/shape.png), url(../Image/point.png);
+    background-repeat: no-repeat;
+    background-position: 1113px 534px, 1113px 534px, -83px 286px, -45px 270px, 1260px 100px;
+    background-size: 333px, 333px, 214px, 1500px, 114px;
+}
+
+.contener-2 {
+    width: fit-content;
+}
+
+.contener-2-div {
+    box-shadow: 0px 0px 67px #0e63dc1f;
+    width: 217px;
+    height: 242px;
+    background-color: white;
+    border-radius: 24px;
+    display: inline-block;
+    padding: 36px 21px;
+    margin: 0px 10px;
+    position: relative;
+    left: 117px;
+}
+
+.docter-1-1 {
+    width: 181px;
+    display: block;
+    margin: 0px auto 40px;
+}
+
+.contener-2-div p {
+    font-size: 11px;
+    width: 203px;
+    color: #7f9ac1;
+    display: block;
+    margin: 0px auto;
+    margin-bottom: 23px;
+    text-shadow: 0px 0px 3px #7f9ac16e;
+}
+
+.contener-2-div a {
+    margin: 0px auto;
+    text-decoration: none;
+    font-size: 11px;
+    background-color: #3ddea2;
+    padding: 10px 23px;
+    border-radius: 43px;
+    color: white;
+    display: table;
+    box-shadow: 0px 4px 14px #3ddea261;
+}
+
+.posison-2 {
+    width: fit-content;
+}
+
+.left-arrow-1 {
+    width: 8px;
+    vertical-align: middle;
+    margin-left: 4px;
+}
+
+/*###############################################################*/
+
+footer {
+    width: auto;
+    height: auto;
+    padding: 10px;
+    background-color: #09114c;
+}
+
+footer p {
+    font-size: 15px;
+    color: #ffffffd6;
+    width: fit-content;
+    display: block;
+    margin: 0px auto;
+    padding: 14px 20px;
+}
